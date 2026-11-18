@@ -1,0 +1,9 @@
+﻿Check,Count_or_value
+rows_after_dedup,36009
+tickers,29
+duplicate_keys,0
+missing_core,0
+high_below_low,0
+open_outside_range,0
+close_outside_range,2
+negative_volume,0

@@ -1,0 +1,20 @@
+﻿Variable,Description,Role
+Date,Trading date,Date
+Ticker,Stock symbol,Categorical
+Open,Opening price,Feature
+High,Highest price,Feature
+Low,Lowest price,Feature
+Close,Unadjusted closing price; target source,Feature/Target
+Adjusted_Close,Adjusted closing price; retained for reference only,Reference
+Matched_Volume,Matched trading volume,Feature
+Matched_Value,Matched trading value,Reference
+Negotiated_Volume,Negotiated volume,Reference
+Negotiated_Value,Negotiated value,Reference
+Price_Range,High minus Low,Engineered feature
+Daily_Return,Close(t)/Close(t-1)-1,Engineered feature
+MA5,5-session moving average of Close,Engineered feature
+MA20,20-session moving average of Close,Engineered feature
+Lag_1,Previous session Close,Engineered feature
+Lag_2,Close two sessions earlier,Engineered feature
+Target_Date,Date of next trading session,Target metadata
+Target_Next_Close,Next trading session Close,Target
